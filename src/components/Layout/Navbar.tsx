@@ -38,6 +38,9 @@ const NavbarStyled = styled.div`
       outline: none;
       border: none;
       border-radius: 5px;
+      color: #1e293b;
+      /* font-weight: 300; */
+      font-family: "montserrat";
     }
 
     .button-container {
