@@ -1,6 +1,18 @@
 import { AiFillStar } from 'react-icons/ai';
 
-export const shoes = [
+type ShoesType = {
+  img: string;
+  title: string;
+  star: JSX.Element;
+  reviews: string;
+  prevPrice: string;
+  newPrice: string;
+  company: string;
+  color: string;
+  category: string;
+}
+
+export const shoes: ShoesType[] = [
   {
     img: "https://m.media-amazon.com/images/I/61gWIlhX9PL._AC_UX575_.jpg",
     title: "Nike Air Monarch IV",
